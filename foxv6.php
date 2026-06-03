@@ -16,7 +16,7 @@ if (!isset($_SESSION['state_d'])) $_SESSION['state_d'] = 'sd_'.substr(md5(uniqid
 if (!isset($_SESSION['state_n'])) $_SESSION['state_n'] = 'sn_'.substr(md5(uniqid(rand(), true)), 0, 6);
 if (!isset($_SESSION['state_i'])) $_SESSION['state_i'] = 'si_'.substr(md5(uniqid(rand(), true)), 0, 6);
 
-define('X_FILE_MANAGER_VERSION', '0.1');
+define('X_FILE_MANAGER_VERSION', '0.6');
 define('APP_NAME', 'A3rr0r-File Manager');
 define('ENCRYPTION_KEY', 'RCnFfsCw3ItXaCn7BWvyyFE1Rxdmz');
 define('MAX_UPLOAD_SIZE', 100 * 1024 * 1024); 
